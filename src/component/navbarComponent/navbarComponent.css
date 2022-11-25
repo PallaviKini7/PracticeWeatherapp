@@ -1,0 +1,70 @@
+
+
+.tabsSelect {
+    display: flex;
+    /* gap: 2rem; */
+    align-items: center;
+}
+
+.tabLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff85;
+    padding: 3.9rem 0 0 0;
+}
+
+.dateDisplay {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    text-align: right;
+}
+
+.linkNames {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 15px;
+    padding-bottom: 10px;
+}
+
+.searchField::placeholder {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+.active {
+    border-bottom: 1px solid #FFD639;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 15px;
+    color: #FFD639;
+    padding-bottom: 10px;
+}
+.home
+{
+    width: 62px;
+    display: flex;
+    justify-content: center;
+}
+.fav
+{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.recent
+{
+    width: 140px;
+    display: flex;
+    justify-content: center;
+}
